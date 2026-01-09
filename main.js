@@ -15,11 +15,13 @@ let tipValue = 0;
 billInput.addEventListener("input", () => {
   billValue = Number(billInput.value);
   console.log(billValue);
+  calculator();
 });
 
 peopleInput.addEventListener("input", () => {
   peopleValue = Number(peopleInput.value);
   console.log(peopleValue);
+  calculator();
 });
 
 function calculator() {
@@ -77,7 +79,6 @@ resetBtn.addEventListener("click", () => {
   billInput.value = "";
   peopleInput.value = "";
   btnCustom.value = "";
-  btnCal = 0;
   billValue = 0;
   peopleValue = 1;
   tipValue = 0;
