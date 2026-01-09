@@ -128,6 +128,14 @@ padding-right: var(--spacing_200);
   display: flex;
   flex-direction: column;
 }
+.label-row{
+  display: flex;
+  justify-content: space-between;
+}
+.error-msg{
+  display: none;
+  color: var(--orange_400);
+}
 .tip-grid{
   display:grid;
   grid-template-columns: repeat(3, 168px);
@@ -160,7 +168,7 @@ width: 100%;
   background-color: var(--grey_200);
   border: 0;
   border-radius: 5px;
-  text-align: right;
+  text-align: center;
   padding-right: var(--spacing_200);
   font-size: var(--fs_3);
   font-family: var(--ff);
@@ -175,13 +183,15 @@ width: 100%;
   background-color: var(--green_400);
    color: var(--white);
 }
-#custom-tip::placeholder {
+.custom-tip::placeholder {
   color: var(--grey_500);
   text-align: center;
 }
 .active{
     background-color: var(--green_400);
 }
+
+
 .input-field-people{
    width: 100%;
   background-image: url(./images/icon-person.svg);
