@@ -36,8 +36,8 @@ function calculator() {
     
   } else {
    
-    peopleError.innerHTML = ""; 
-    peopleInput.style.border = "none"; 
+  peopleError.style.display = "none";
+  peopleInput.style.border = "none"; 
     
     let tipAmountPerPerson = (billValue * tipValue) / peopleValue;
     let totalPerPerson = (billValue / peopleValue) + tipAmountPerPerson;
