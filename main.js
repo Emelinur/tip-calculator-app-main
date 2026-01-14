@@ -19,7 +19,7 @@ billInput.addEventListener("input", () => {
 });
 
 peopleInput.addEventListener("input", () => {
-  peopleValue = Number(peopleInput.value);
+  peopleValue = parseInt(peopleInput.value);
   console.log(peopleValue);
   calculator();
 });
