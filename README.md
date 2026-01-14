@@ -24,8 +24,6 @@ Thanks for checking out this front-end coding challenge.
   - [Continued development](#continued-development)
 - [Author](#author)
 
-
-
 ### The challenge
 
 Users should be able to:
@@ -45,8 +43,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo Linkini Buraya Yapıştır]
-- Live Site URL: [Vercel veya Netlify Linkini Buraya Yapıştır]
+- Solution URL: [https://www.frontendmentor.io/solutions/tip-calculator-app-main-nNF_D7wBZb]
+- Live Site URL: [https://emelinur.github.io/tip-calculator-app-main/]
 
 ## My process
 
